@@ -1,0 +1,7 @@
+{
+  "name": "HR Shoes — Premium Men's Footwear",
+  "description": "Premium men's footwear e-commerce storefront for Pakistan. Handcrafted loafers, formal shoes, and everyday footwear designed for Lahore, Islamabad, Karachi, and nationwide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

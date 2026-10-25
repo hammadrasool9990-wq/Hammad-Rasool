@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-black: #111111;
+    --brand-charcoal: #1B1B1B;
+    --brand-brown: #754C32;
+    --brand-warm-brown: #A87952;
+    --brand-cream: #F6F1E9;
+    --brand-white: #FFFFFF;
+    --brand-muted: #77716B;
+    --brand-border: #E7DED4;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--brand-cream);
+    color: var(--brand-black);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom utility classes for brand tokens */
+.bg-brand-cream { background-color: #F6F1E9; }
+.bg-brand-black { background-color: #111111; }
+.bg-brand-charcoal { background-color: #1B1B1B; }
+.bg-brand-brown { background-color: #754C32; }
+.bg-brand-warm { background-color: #A87952; }
+.bg-brand-white { background-color: #FFFFFF; }
+
+.text-brand-black { color: #111111; }
+.text-brand-charcoal { color: #1B1B1B; }
+.text-brand-brown { color: #754C32; }
+.text-brand-warm { color: #A87952; }
+.text-brand-muted { color: #77716B; }
+
+.border-brand-border { border-color: #E7DED4; }
+.border-brand-brown { border-color: #754C32; }
+
+/* Custom scrollbar and accessibility focus styles */
+:focus-visible {
+  outline: 2px solid #754C32;
+  outline-offset: 2px;
+}
